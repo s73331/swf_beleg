@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="de.htwdd.sf.beleg.s72868.s73331.feature"
+	label="ReneMartin Feature "
+	version="1.0.0.qualifier">
+	<plugin
+			id="de.htwdd.sf.beleg.s72868.s73331"
+			download-size="0"
+			install-size="0"
+			version="0.0.0"
+			unpack="false"/>
+	<plugin
+			id="de.htwdd.sf.beleg.s72868.s73331.ide"
+			download-size="0"
+			install-size="0"
+			version="0.0.0"
+			unpack="false"/>
+	<plugin
+			id="de.htwdd.sf.beleg.s72868.s73331.ui"
+			download-size="0"
+			install-size="0"
+			version="0.0.0"
+			unpack="false"/>
+</feature>
