@@ -1,3 +1,6 @@
+# .metadata as we need to check eclipse workspace in
+.metadata
+
 # Compiled class file
 *.class
 
