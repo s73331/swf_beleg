@@ -1,3 +1,10 @@
+# xtend directories
+src-gen
+xtend-gen
+bin
+# highly unsure about this one
+target
+
 # .metadata as we need to check eclipse workspace in
 .metadata
 

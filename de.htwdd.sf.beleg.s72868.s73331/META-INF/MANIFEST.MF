@@ -7,5 +7,23 @@ Bundle-SymbolicName: de.htwdd.sf.beleg.s72868.s73331; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.xtext,
  org.eclipse.xtext.xbase,
- org.eclipse.equinox.common;bundle-version="3.5.0"
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib,
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib,
+ org.eclipse.emf.common
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: de.htwdd.sf.beleg.s72868.s73331.serializer,
+ de.htwdd.sf.beleg.s72868.s73331.services,
+ de.htwdd.sf.beleg.s72868.s73331.parser.antlr.internal,
+ de.htwdd.sf.beleg.s72868.s73331.reneMartin,
+ de.htwdd.sf.beleg.s72868.s73331.reneMartin.util,
+ de.htwdd.sf.beleg.s72868.s73331.validation,
+ de.htwdd.sf.beleg.s72868.s73331.parser.antlr,
+ de.htwdd.sf.beleg.s72868.s73331,
+ de.htwdd.sf.beleg.s72868.s73331.scoping,
+ de.htwdd.sf.beleg.s72868.s73331.generator,
+ de.htwdd.sf.beleg.s72868.s73331.reneMartin.impl
+Import-Package: org.apache.log4j

@@ -1,0 +1,9 @@
+grammar de.htwdd.sf.beleg.s72868.s73331.ReneMartin with org.eclipse.xtext.common.Terminals
+
+generate reneMartin "http://www.htwdd.de/beleg/s72868/s73331/ReneMartin"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

@@ -1,9 +1,0 @@
-grammar ReneMartin with org.eclipse.xtext.common.Terminals
-
-generate reneMartin "http://www.ReneMartin"
-
-Model:
-	greetings+=Greeting*;
-	
-Greeting:
-	'Hello' name=ID '!';
